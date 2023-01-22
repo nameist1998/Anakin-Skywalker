@@ -1,0 +1,101 @@
+.nav-div img {
+  max-width: 400px;
+  height: 350px;
+  margin: none;
+}
+.nav-div {
+  position: relative;
+}
+.nav-div h1 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-family: "Abril Fatface", cursive;
+  color: #222;
+  font-size: 40px;
+}
+
+blockquote::before {
+  content: "‘‘";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 100px;
+}
+
+.blockquotes {
+  position: relative;
+  font-weight: bold;
+  color: white;
+  background-color: #444444;
+  margin: auto;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.sections {
+  margin: auto;
+  padding-bottom: 200px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 450px;
+}
+.list-div {
+  list-style-type: square;
+  font-size: 20px;
+  margin-bottm: 10px;
+}
+
+.title {
+  margin-bottom: 0;
+  font-family: "Merriweather", serif;
+}
+
+hr {
+  border: 2px solid black;
+}
+body {
+  margin: auto;
+  max-width: 1200px;
+}
+.whole-div {
+  margin: 75px 0;
+  max-height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.navsdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  gap: 75px;
+  align-items: center;
+
+  background-color: #444444;
+  color: white;
+  width: 900px;
+  height: 75px;
+  font-size: 30px;
+}
